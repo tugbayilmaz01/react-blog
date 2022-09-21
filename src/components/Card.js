@@ -5,7 +5,7 @@ function Card(){
        <div className="card container">
        <p>Announcements</p> 
        
-      
+       
        </div> 
     )
 
