@@ -1,0 +1,47 @@
+
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+.navbar {
+  list-style-type: none;
+  border-top:1px solid rgb(223, 219, 219);
+  border-bottom:1px solid rgb(223, 219, 219);
+}
+
+.nav-items {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+a {
+  color:black;
+  
+}
+
+a:hover {
+  color: rgb(108, 107, 107);
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  font-size:2.2rem;
+  padding-top: 4rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+.card{
+  border: 1px solid rgb(223, 219, 219);
+  
+}
