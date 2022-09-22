@@ -5,12 +5,12 @@ function Header(){
     <h1>The Blog</h1>
     <ul className="navbar container d-flex align-items-center justify-content-center gap-3">
       <li className="nav-items">
-       <a href="">Users</a></li> 
+       <a href="/user-list">Users</a></li> 
       <li>
       <a href="">Home Page</a> 
       </li> 
        <li>
-       <a href="">Blog</a> 
+       <a href="/">Blog</a> 
        </li> 
     </ul> 
 

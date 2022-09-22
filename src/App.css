@@ -3,7 +3,7 @@
 h1 {
   text-align: center;
   font-size: 3rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 2rem;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
@@ -13,19 +13,21 @@ h1 {
   list-style-type: none;
   border-top:1px solid rgb(223, 219, 219);
   border-bottom:1px solid rgb(223, 219, 219);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
 }
 
 .nav-items {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  display: flex;
-  gap: 2rem;
-  justify-content: space-between;
+
 }
 
 a {
   color:black;
-  
+  text-decoration: none;
 }
 
 a:hover {
@@ -41,7 +43,12 @@ h2 {
   font-weight: bold;
 }
 
-.card{
+.card-title{
+  font-size: 1.5rem;
+}
+
+.card {
+  margin: 1rem;
   border: 1px solid rgb(223, 219, 219);
-  
+  padding: 1rem;
 }

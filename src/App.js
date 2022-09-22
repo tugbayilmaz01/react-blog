@@ -5,14 +5,14 @@ import BlogDetail from "./components/BlogDetail";
 import Blog from "./components/Blog";
 import UserList from "./components/UserList";
 import Header from "./components/Header";
-import Card from "./components/Card";
+
 
 function App() {
   return (
    
    <BrowserRouter>
    <Header/>
-   <Card/> 
+   
    <Routes>
    <> 
    
