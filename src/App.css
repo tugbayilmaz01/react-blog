@@ -2,15 +2,15 @@
 
 h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 3rem !important;
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
   font-family: 'Roboto Slab', serif;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 .navbar {
-  list-style-type: none;
+  list-style-type: none !important; 
   border-top:1px solid rgb(223, 219, 219);
   border-bottom:1px solid rgb(223, 219, 219);
   display: flex;
@@ -23,24 +23,27 @@ h1 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 
+
 }
 
 a {
-  color:black;
-  text-decoration: none;
+  color:black !important;
+  text-decoration: none !important;
+  list-style-type: none !important;
 }
 
 a:hover {
-  color: rgb(108, 107, 107);
+  color: rgb(108, 107, 107) !important;
   text-decoration: none;
 }
 
 h2 {
   text-align: center;
-  font-size:2.2rem;
+  font-size:2.2rem !important;
   padding-top: 4rem;
   font-family: 'Roboto Slab', serif;
-  font-weight: bold;
+  font-weight: bold !important;
+  display: block;
 }
 
 .card-title{

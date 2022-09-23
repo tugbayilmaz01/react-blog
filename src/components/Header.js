@@ -14,7 +14,7 @@ function Header(){
        </li> 
     </ul> 
 
-   <h2>Latest</h2> 
+  
 
     </nav>    
     )
