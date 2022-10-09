@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-function Cards(){
+function Cards(props){
     return(
         
         <Row xs={1} md={2} className="g-4">
@@ -10,11 +10,9 @@ function Cards(){
             <Card>
              <a href=''>
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>{props.title}</Card.Title>
                 <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  {props.body}
                 </Card.Text>
               </Card.Body>
               </a> 
