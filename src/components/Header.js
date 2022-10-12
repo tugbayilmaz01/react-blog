@@ -7,7 +7,7 @@ function Header(){
       <li className="nav-items">
        <a href="/user-list">Users</a></li> 
       <li>
-      <a href="">Home Page</a> 
+      <a href="/blog-detail">Home Page</a> 
       </li> 
        <li>
        <a href="/">Blog</a> 
